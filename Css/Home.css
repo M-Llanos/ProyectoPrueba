@@ -266,7 +266,7 @@ article > div > div > img{
 }
 
 .Carrousel > h3{
-    color: greenyellow;
+    color: green;
     margin-left: 70px;
 }
 
@@ -371,7 +371,7 @@ textarea{
 
 .Tiendas > div > .Botones > button{
     background: #04AA6D;
-    color: white;
+    color: black;
 }
 
 .Botones > div > .Selecionada{
@@ -466,7 +466,6 @@ footer{
     color: black;
     background-color: white;
 }
-
 /* A partir de 800px, el responsive se activa */
 @media (max-width: 800px) {
     header > img{width: 30%; margin: auto}
