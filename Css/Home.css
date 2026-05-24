@@ -274,6 +274,10 @@ article > div > div > img{
     justify-content: space-between;
 }
 
+.Etiqueta{
+    display: none;
+}
+
 .SeccionDesigual{
     display: flex;
     flex-direction: row;
