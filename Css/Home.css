@@ -409,6 +409,7 @@ textarea{
 
 .Tiendas > div > .Botones > .Selecionada{
     background-color: green;
+    color: white;
 }
 
 .Abajo{
