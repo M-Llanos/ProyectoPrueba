@@ -51,7 +51,7 @@ header > button{
     text-align: center;
     align-content: center;
     width: 100%;
-    background-image: url("../Imagenes/img_1.png");
+    background-image: url("../Imagenes/img_1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -64,7 +64,7 @@ article{
     text-align: justify;
     color: white;
     width: 100%;
-    background-image: url("../Imagenes/img_1.png");
+    background-image: url("../Imagenes/img_1.webp");
     font-size: 30px;
     padding: 4% 0%;
 }
@@ -230,7 +230,7 @@ article > div > div > img{
     height: 600px;
     justify-content: center;
     align-items: center;
-    background-image: url("../Imagenes/img_1.png");
+    background-image: url("../Imagenes/img_1.webp");
     font-size: 40px;
 }
 

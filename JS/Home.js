@@ -24,7 +24,7 @@ let error = "";
 let imagen = document.getElementById("Imagen");
 //Variables para el cambio de texto.
 let Grocery = '       <div class="Lado">\n' +
-    '          <img src="../Imagenes/cama.png" alt="Icono de una cama">\n' +
+    '          <img src="../Imagenes/cama.webp" alt="Icono de una cama">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Trader\'s Joe\n' +
@@ -36,7 +36,7 @@ let Grocery = '       <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/cama.png" alt="Icono de una cama">\n' +
+    '          <img src="../Imagenes/cama.webp" alt="Icono de una cama">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Whole Foods Market\n' +
@@ -48,7 +48,7 @@ let Grocery = '       <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/cama.png" alt="Icono de una cama">\n' +
+    '          <img src="../Imagenes/cama.webp" alt="Icono de una cama">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              City Point BLNK\n' +
@@ -60,7 +60,7 @@ let Grocery = '       <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>'
 let Dining = ' <div class="Lado">\n' +
-    '          <img src="../Imagenes/Comida.png" alt="Icono de un tenedor y cuchillo">\n' +
+    '          <img src="../Imagenes/Comida.webp" alt="Icono de un tenedor y cuchillo">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Grau Dinner' +
@@ -72,7 +72,7 @@ let Dining = ' <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Comida.png" alt="Icono de un tenedor y cuchillo">\n' +
+    '          <img src="../Imagenes/Comida.webp" alt="Icono de un tenedor y cuchillo">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Salt and Pepper' +
@@ -84,7 +84,7 @@ let Dining = ' <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Comida.png" alt="Icono de un tenedor y cuchillo">\n' +
+    '          <img src="../Imagenes/Comida.webp" alt="Icono de un tenedor y cuchillo">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Niko Cafe' +
@@ -97,7 +97,7 @@ let Dining = ' <div class="Lado">\n' +
     '        </div>\n';
 let Transportation =
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Coche.png" alt="Icono de un coche">\n' +
+    '          <img src="../Imagenes/Coche.webp" alt="Icono de un coche">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Grand Mesa Bus Station' +
@@ -109,7 +109,7 @@ let Transportation =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Coche.png" alt="Icono de un coche">\n' +
+    '          <img src="../Imagenes/Coche.webp" alt="Icono de un coche">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Bike4Hire' +
@@ -121,7 +121,7 @@ let Transportation =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Coche.png" alt="Icono de un coche">\n' +
+    '          <img src="../Imagenes/Coche.webp" alt="Icono de un coche">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Grand Mesa Aeroport' +
@@ -134,7 +134,7 @@ let Transportation =
     '        </div>\n';
 let Education =
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Libro.png" alt="Icono de un libro">\n' +
+    '          <img src="../Imagenes/Libro.webp" alt="Icono de un libro">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Grand Mesa Highschool' +
@@ -146,7 +146,7 @@ let Education =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Libro.png" alt="Icono de un libro">\n' +
+    '          <img src="../Imagenes/Libro.webp" alt="Icono de un libro">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Private Language School' +
@@ -158,7 +158,7 @@ let Education =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Libro.png" alt="Icono de un libro">\n' +
+    '          <img src="../Imagenes/Libro.webp" alt="Icono de un libro">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Little Doggy Kindergarden' +
@@ -170,7 +170,7 @@ let Education =
     '          </div>\n' +
     '        </div>\n';
 let Hospitals = '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Cruz.png" alt="Icono de un cruz medica">\n' +
+    '          <img src="../Imagenes/Cruz.webp" alt="Icono de un cruz medica">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Grand Mesa Hospital' +
@@ -182,7 +182,7 @@ let Hospitals = '        <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Cruz.png" alt="Icono de un cruz medica">\n' +
+    '          <img src="../Imagenes/Cruz.webp" alt="Icono de un cruz medica">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Private Clinic John Medic' +
@@ -194,7 +194,7 @@ let Hospitals = '        <div class="Lado">\n' +
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Cruz.png" alt="Icono de un cruz medica">\n' +
+    '          <img src="../Imagenes/Cruz.webp" alt="Icono de un cruz medica">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Little Pet Clinic' +
@@ -207,7 +207,7 @@ let Hospitals = '        <div class="Lado">\n' +
     '        </div>\n';
 let Parks =
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Arbol.png" alt="Icono de un arbol">\n' +
+    '          <img src="../Imagenes/Arbol.webp" alt="Icono de un arbol">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Jane Forests Park' +
@@ -219,7 +219,7 @@ let Parks =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Arbol.png" alt="Icono de un arbol">\n' +
+    '          <img src="../Imagenes/Arbol.webp" alt="Icono de un arbol">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              Vibes Plaza' +
@@ -231,7 +231,7 @@ let Parks =
     '          </div>\n' +
     '        </div>\n' +
     '        <div class="Lado">\n' +
-    '          <img src="../Imagenes/Arbol.png" alt="Icono de un arbol">\n' +
+    '          <img src="../Imagenes/Arbol.webp" alt="Icono de un arbol">\n' +
     '          <div>\n' +
     '            <h3>\n' +
     '              The golden river' +
@@ -289,7 +289,7 @@ function CambiarImagen(number, boton){
     if (number === 1){
         imagen.innerHTML = '<img src="../Imagenes/Plano2.webp" alt="Plano de la planta 2 de una casa">'
     } else {
-        imagen.innerHTML = '<img src="../Imagenes/plano.jpg" alt="Plano de la planta 1 de una casa">'
+        imagen.innerHTML = '<img src="../Imagenes/plano.webp" alt="Plano de la planta 1 de una casa">'
     }
 }
 
@@ -328,15 +328,15 @@ function Carrousel(numero){
         ImagenActual = 4;
     }
     if (ImagenActual === 0){
-        carrousel.innerHTML = '<img src="../Imagenes/Casa.jpg" class="MargenAuto" alt="Imagen de una casa">'
+        carrousel.innerHTML = '<img src="../Imagenes/Casa.webp" class="MargenAuto" alt="Imagen de una casa">'
     } else if (ImagenActual === 1){
         carrousel.innerHTML = '<img src="../Imagenes/Casa2.webp" class="MargenAuto" alt="Imagen de una casa">'
     } else if (ImagenActual === 2){
-        carrousel.innerHTML = '<img src="../Imagenes/Casa3.jpg" class="MargenAuto" alt="Imagen de una casa">'
+        carrousel.innerHTML = '<img src="../Imagenes/Casa3.webp" class="MargenAuto" alt="Imagen de una casa">'
     } else if (ImagenActual === 3){
         carrousel.innerHTML = '<img src="../Imagenes/Casa4.webp" class="MargenAuto" alt="Imagen de una casa">'
     } else if (ImagenActual === 4){
-        carrousel.innerHTML = '<img src="../Imagenes/Casa5.jpg" class="MargenAuto" alt="Imagen de una casa">'
+        carrousel.innerHTML = '<img src="../Imagenes/Casa5.webp" class="MargenAuto" alt="Imagen de una casa">'
     }
     console.log(ImagenActual)
 }

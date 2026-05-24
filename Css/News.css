@@ -61,7 +61,7 @@ article{
     text-align: center;
     align-content: center;
     width: 100%;
-    background-image: url("../Imagenes/img_1.png");
+    background-image: url("../Imagenes/img_1.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -169,25 +169,25 @@ footer{
 }
 
 .Uno{
-    background-image: url("../Imagenes/Casa.jpg");
+    background-image: url("../Imagenes/Casa.webp");
 }
 
 .Dos{
-    background-image: url("../Imagenes/CasaDentroTrue.jpg");
+    background-image: url("../Imagenes/CasaDentroTrue.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .Tres{
-    background-image: url("../Imagenes/Casa5.jpg");
+    background-image: url("../Imagenes/Casa5.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .Cuatro{
-    background-image: url("../Imagenes/Casa3.jpg");
+    background-image: url("../Imagenes/Casa3.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -201,7 +201,7 @@ footer{
 }
 
 .Seis{
-    background-image: url("../Imagenes/CasaDentro.jpg");
+    background-image: url("../Imagenes/CasaDentro.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
