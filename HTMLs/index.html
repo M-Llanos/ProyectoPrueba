@@ -1,37 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  <link rel="stylesheet" href="../Css/Home.css">
+  <meta name="description" content="Home for a page about searching for a Home to live">
+  <meta name="keywords" content="Home, Residence">
+  <meta name="author" content="Mohn Lloe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../Css/Home.css">
   <script src="../JS/Home.js" defer></script>
 </head>
 <body>
 <header>
-  <img src="../Imagenes/img.png" alt="Logo">
+  <img src="/Imagenes/img.webp" alt="Logo">
   <nav>
     <a href="Home.html"> Home </a>
     <a href="About.html"> About </a>
-    <a href="../Imagenes/img.png"> Gallery </a>
+    <a href="../Imagenes/img.webp"> Gallery </a>
     <a href="News.html"> News </a>
     <a href="Contacto.html"> Contact </a>
   </nav>
   <button> Schedule </button>
 </header>
 <article>
-  <div class="Titulo Lado">
+  <div class="Titulo Lado Espacio">
     <h1> Your next perfect and beautiful home for living today </h1>
     <div class="Abajo">
-      <img src="../Imagenes/tio.jpg" class="Foto" alt="Cara de una persona">
+      <img src="../Imagenes/tio.webp" class="Foto" alt="Cara de una persona">
       <h5 class="Margen"> Emily Rodriguez </h5>
       <h6 class="Margen"> (+1) 283-4959 </h6>
     </div>
   </div>
-  <div class="Lado Ad">
+  <div class="Lado Ad Espacio">
     <h6> 728 Evergreen Terrance, Brooklyn </h6>
     <div class="Lado">
-      <img src="../Imagenes/cama.png">
+      <img src="../Imagenes/cama.webp" alt="Imagen de una cama">
       <div>
         <h2> Live your dream </h2>
         <p> Thoughtfully designed homes that look great, perform well and  fit your lifestyle perfectly every day </p>
@@ -40,29 +42,29 @@
     </div>
   </div>
 </article>
-<div class="Propiedad Lado">
+<div class="Propiedad Space Lado">
   <h3>
     Sobre esto
   </h3>
   <div>
     <h3> This exceptional Residence offers refined living with generous open spaces, bright interiors, and a warm modern
-    desing that blends comfort with style. Every room is crafted to create a welcoming atmosphere, giving you the
-    perfect setting for daily life, relaxation and memorable moments</h3>
+      desing that blends comfort with style. Every room is crafted to create a welcoming atmosphere, giving you the
+      perfect setting for daily life, relaxation and memorable moments</h3>
     <div class="Lado">
       <div class="Listados FIMG">
-        <img src="../Imagenes/Metros.png" class="Icon" alt="Icono de un metro">
+        <img src="../Imagenes/Metros.webp" class="Icon" alt="Icono de un metro">
         <h4> 1665 sqft</h4>
       </div>
       <div class="Listados FIMG">
-        <img src="../Imagenes/cama.png" class="Icon" alt="Icono de una cama">
+        <img src="../Imagenes/cama.webp" class="Icon" alt="Icono de una cama">
         <h4> 5 beds</h4>
       </div>
       <div class="Listados FIMG">
-        <img src="../Imagenes/Retrete.png" class="Icon" alt="Icono de un Retrete">
+        <img src="../Imagenes/Retrete.webp" class="Icon" alt="Icono de un Retrete">
         <h4> 5 baths</h4>
       </div>
       <div class="Listados FIMG">
-        <img src="../Imagenes/Coche.png" class="Icon" alt="Icono de un coche">
+        <img src="../Imagenes/Coche.webp" class="Icon" alt="Icono de un coche">
         <h4> 5 cars</h4>
       </div>
     </div>
@@ -70,12 +72,12 @@
 </div>
 <div class="Facilidades Abajo">
   <h5> Home Facilities </h5>
-  <div class="Lado Titular">
+  <div class="Lado Titular Space">
     <h1> Facilities for lifestyle </h1>
     <button class="Derecha"> View More </button>
   </div>
-  <div class="Lado">
-    <img src="../Imagenes/SmartHome.png" class="Bloque" alt="Imagen de un movil con smart home">
+  <div class="Lado Space">
+    <img src="../Imagenes/SmartHome.webp" class="Bloque" alt="Imagen de un movil con smart home">
     <div class="Abajo">
       <h3>
         Smart Home
@@ -84,7 +86,7 @@
         Experience seamless daily confort with intuitive smart freatures that connect your home effortlessly and  enhance mordern living.
       </p>
     </div>
-    <img src="../Imagenes/Panel.jpg" class="Bloque" alt="Imagen de un panel solar">
+    <img src="../Imagenes/Panel.webp" class="Bloque" alt="Imagen de un panel solar">
     <div class="Abajo">
       <h3>
         Solar Powered
@@ -94,8 +96,8 @@
       </p>
     </div>
   </div>
-  <div class="LadoReversa">
-    <img src="../Imagenes/Piscina.jpg" class="Bloque" alt="Imagen de una piscina privada">
+  <div class="LadoReversa Space">
+    <img src="../Imagenes/Piscina.webp" class="Bloque" alt="Imagen de una piscina privada">
     <div class="Abajo">
       <h3>
         Swimming Pool
@@ -116,7 +118,7 @@
   </div>
 </div>
 <div class="Video">
-  <img src="../Imagenes/Play.png" alt="Play del video">
+  <img src="../Imagenes/Play.webp" alt="Play del video">
 </div>
 <div class="Lado Planos">
   <div class="Notas Abajo">
@@ -164,12 +166,12 @@
     </div>
   </div>
   <div class="Botones Abajo">
-    <div class="Lado">
-      <button onclick="CambiarImagen(0)"> Floor 1 </button>
-      <button onclick="CambiarImagen(1)"> Floor 2 </button>
+    <div class="Lado" id="planes">
+      <button class="Selecionada" onclick="CambiarImagen(0, this)"> Floor 1 </button>
+      <button onclick="CambiarImagen(1, this)"> Floor 2 </button>
     </div>
     <div id="Imagen">
-      <img src="../Imagenes/plano.jpg" alt="Plano de la planta 1 de una casa">
+      <img src="../Imagenes/plano.webp" alt="Plano de la planta 1 de una casa">
     </div>
   </div>
 </div>
@@ -188,7 +190,7 @@
       </div>
     </div>
     <div class="CarroImagen" id="Carros">
-      <img src="../Imagenes/Casa.jpg" class="MargenAuto" alt="Imagen de una casa">
+      <img src="../Imagenes/Casa.webp" class="MargenAuto" alt="Imagen de una casa">
     </div>
   </div>
 </div>
@@ -196,55 +198,55 @@
   <div>
     <h6>Location Highlights</h6>
     <h1>Everything you need, all arround you</h1>
-      <div CLASS="Lado Botones">
-        <button onclick="CambiarTexto(1)"> Grocery </button>
-        <button onclick="CambiarTexto(2)"> Dining </button>
-        <button onclick="CambiarTexto(3)"> Transportation </button>
-        <button onclick="CambiarTexto(4)"> Education </button>
-        <button onclick="CambiarTexto(5)"> Hospitals </button>
-        <button onclick="CambiarTexto(6)"> Parks </button>
-      </div>
-      <div class="Lado" id="Secc">
-        <div class="Lado">
-          <img src="../Imagenes/cama.png" alt="Icono de una cama">
-          <div>
-            <h3>
-              Trader's Joe
-            </h3>
-            <h5>
-              6 min walk
-            </h5>
-            <p> Popular Grocery Store with high-quality selections </p>
-          </div>
-        </div>
-        <div class="Lado">
-          <img src="../Imagenes/cama.png" alt="Icono de una cama">
-          <div>
-            <h3>
-              Whole Foods Market
-            </h3>
-            <h5>
-              10 min walk
-            </h5>
-            <p> Premium organic produce and gourmet ingredients</p>
-          </div>
-        </div>
-        <div class="Lado">
-          <img src="../Imagenes/cama.png" alt="Icono de una cama">
-          <div>
-            <h3>
-              City Point BLNK
-            </h3>
-            <h5>
-              8-10 min walk
-            </h5>
-            <p> Retail center with Trader Joe's, Target, Dekalb Market</p>
-          </div>
+    <div CLASS="Lado Botones" id="tienda">
+      <button class="Selecionada"  onclick="CambiarTexto(1, this)"> Grocery </button>
+      <button onclick="CambiarTexto(2, this)"> Dining </button>
+      <button onclick="CambiarTexto(3, this)"> Transportation </button>
+      <button onclick="CambiarTexto(4, this)"> Education </button>
+      <button onclick="CambiarTexto(5, this)"> Hospitals </button>
+      <button onclick="CambiarTexto(6, this)"> Parks </button>
+    </div>
+    <div class="Lado" id="Secc">
+      <div class="Lado">
+        <img src="../Imagenes/cama.webp" alt="Icono de una cama">
+        <div>
+          <h3>
+            Trader's Joe
+          </h3>
+          <h5>
+            6 min walk
+          </h5>
+          <p> Popular Grocery Store with high-quality selections </p>
         </div>
       </div>
+      <div class="Lado">
+        <img src="../Imagenes/cama.webp" alt="Icono de una cama">
+        <div>
+          <h3>
+            Whole Foods Market
+          </h3>
+          <h5>
+            10 min walk
+          </h5>
+          <p> Premium organic produce and gourmet ingredients</p>
+        </div>
+      </div>
+      <div class="Lado">
+        <img src="../Imagenes/cama.webp" alt="Icono de una cama">
+        <div>
+          <h3>
+            City Point BLNK
+          </h3>
+          <h5>
+            8-10 min walk
+          </h5>
+          <p> Retail center with Trader Joe's, Target, Dekalb Market</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-<div class="Lado SeccionDesigual">
+<div class="Lado SeccionDesigual Space">
   <section class="Blanco">
     <h2> Contact us </h2>
     <h1> Schedule a home tour </h1>
@@ -253,18 +255,20 @@
       convience
     </p>
 
-    <img src="../Imagenes/tio.jpg" class="Foto" alt="Foto de una persona">
+    <img src="../Imagenes/tio.webp" class="Foto" alt="Foto de una persona">
     <h3> Emily Rodriguez </h3>
     <h4> +34 343 546 776 </h4>
   </section>
   <main>
     <form id="email_form">
-      <div class="SeccionDoble">
+      <div class="SeccionDoble Space">
         <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
         <input type="email" id="email" name="email" placeholder="Tu email">
       </div>
-      <div class="SeccionDoble">
+      <div class="SeccionDoble Space">
+        <label for="fecha"></label>
         <input type="date" id="fecha" name="fecha">
+        <label for="hora"></label>
         <input type="time" id="hora" name="hora">
       </div>
       <div>
@@ -275,26 +279,26 @@
     <p id="Resultat"></p>
   </main>
 </div>
-<div class="SeccionTriple">
+<div class="SeccionTriple Space">
   <div class="Abajo">
     <h3> Address </h3>
     <p> 728 Evergreen Terrance, </p>
     <p> Brooklyn </p>
   </div>
   <div class="Abajo MargenAuto">
-    <img src="../Imagenes/img.png" class="Logo" alt="Logo">
-    <div class="Logitos MargenAuto">
+    <img src="../Imagenes/img.webp" class="Logo" alt="Logo">
+    <div class="Logitos Espacio MargenAuto">
       <a href="https://web.whatsapp.com">
-        <img src="../Imagenes/Whats.png" alt="Logo de Whatsapp"
+        <img src="../Imagenes/Whats.webp" alt="Logo de Whatsapp">
       </a>
       <a href="https://twitter.com">
-        <img src="../Imagenes/Twitter.png" alt="Logo de Twitter">
+        <img src="../Imagenes/Twitter.webp" alt="Logo de Twitter">
       </a>
       <a href="https://instagram.com">
-        <img src="../Imagenes/Insta.png" alt="Logo de Instagram">
+        <img src="../Imagenes/Insta.webp" alt="Logo de Instagram">
       </a>
       <a href="https://facebook.com">
-        <img src="../Imagenes/face.png" alt="Logo de Facebook">
+        <img src="../Imagenes/face.webp" alt="Logo de Facebook">
       </a>
     </div>
   </div>
