@@ -6,7 +6,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 20 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Dos">\n' +
@@ -15,7 +15,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 19 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Tres">\n' +
@@ -24,7 +24,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 18 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>\n' +
@@ -35,7 +35,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 17 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Cinco">\n' +
@@ -44,7 +44,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 16 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Seis">\n' +
@@ -53,7 +53,7 @@ let PaginaUno = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 15 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>'
@@ -65,7 +65,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 14 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Dos">\n' +
@@ -74,7 +74,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 13 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Tres">\n' +
@@ -83,7 +83,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 12 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>\n' +
@@ -94,7 +94,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 11 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Cinco">\n' +
@@ -103,7 +103,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 10 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Seis">\n' +
@@ -112,7 +112,7 @@ let PaginaDos = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 9 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>'
@@ -124,7 +124,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 8 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Dos">\n' +
@@ -133,7 +133,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 7 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Tres">\n' +
@@ -142,7 +142,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 6 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>\n' +
@@ -153,7 +153,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 5 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Cinco">\n' +
@@ -162,7 +162,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 4 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '    <div class="AbajoReversa Seis">\n' +
@@ -171,7 +171,7 @@ let PaginaTres = '  <div>\n' +
     '      </div>\n' +
     '      <div class="Fecha">\n' +
     '        <h1> 3 </h1>\n' +
-    '        <h4> Dec </h4>\n' +
+    '                <h2> Dec </h2>\n' +
     '      </div>\n' +
     '    </div>\n' +
     '  </div>'
