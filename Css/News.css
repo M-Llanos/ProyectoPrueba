@@ -263,6 +263,8 @@ a{
     .Logitos > a > img{
         width: 20%;
         height: 20%;
+        min-width: 20%;
+        min-height: 20%;
     }
     .SeccionTriple {flex-direction: column}
 }

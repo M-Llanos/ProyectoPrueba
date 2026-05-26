@@ -23,6 +23,10 @@ img{
     height: 1%;
 }
 
+.Banner > h2{
+    font-size: 30px;
+}
+
 .Margen{
     margin: 0;
 }
@@ -462,11 +466,12 @@ textarea{
     width: 100%
 }
 
-.Logitos > img{
-    width: 10%;
-    height: 10%;
+.Logitos > a > img{
+    width: 20%;
+    height: 20%;
+    min-width: 20%;
+    min-height: 20%;
 }
-
 footer{
     width: 100%;
     text-align: center;
